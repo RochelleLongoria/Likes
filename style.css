@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Diamond Girl', sans-serif;
+    font-family: 'maccrap asphalt personal use', sans-serif;
+    font-family: 'Diamond Girl Hollow', sans-serif;
+    font-family: 'Diamond Girl Skinny', sans-serif;
+
+}
+
+.container{
+    height: 580px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.someUser-cont{
+    height: 200px;
+    width: 600px;
+}
+
+.top-box {
+height: 120px;
+width: 500px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+font-size: 30px;
+margin-left: 20px
+}
+
+.top-box button {
+    height: 30px;
+    width: 75px;
+    background-color: gold;
+    box-shadow: 3px 4px 5px 0px;
+    color: black;
+    font-weight: 100px;
+}
+
+.bottom-box {
+    height: 55px;
+    width: 400px;
+    margin-left: 20px
+
+}
+
+/* .test {
+    border: 2px;
+    border-color: darkblue;
+    border-style: solid; */
+}
+
+/* ------> start  of second assignement (likesTwo) <---------- */
+.m-container {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 800px;
+    margin: 0px auto;
+}
+
+.s-container {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 800px;
+    margin: 0px auto;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: grey;
+
+}
+
+.left-sect {
+    width: 300px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.vert-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.right-sect {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    
+    
+}
+
+.hor-contain {
+    width: 800px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.box-top{
+    margin: 10px 10px;
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+font-size: 30px;
+}
+
+.bottom-cont {
+margin: 10px 10px;
+font-size: 25px;
+}
+
+.vert-contain [alt*="user-icon"] {
+    height: 150px;
+    width: 150px;
+}
+
+.box-top button {
+    width: 90px;
+    height: 40px;
+    background-color: gold;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grey {
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
+}
